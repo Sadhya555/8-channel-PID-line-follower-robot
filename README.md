@@ -51,9 +51,10 @@
     </td>
     <td valign="top">
       <table>
-        <tr><th>TB6612FNG</th><th>N20 Motors</th></tr>
-        <tr><td><b>A01 + A02</b></td><td>Left Motor</td></tr>
-        <tr><td><b>B01 + B02</b></td><td>Right Motor</td></tr>
+        <tr><th>TB6612FNG</th><th>N20 Motors</th><th>Battery</th></tr>
+        <tr><td><b>A01 + A02</b></td><td>Left Motor</td><td></td></tr>
+        <tr><td><b>B01 + B02</b></td><td>Right Motor</td><td></td></tr>
+        <tr><td><b>VM</b></td><td></td><td>Positive</td></tr>
       </table>
       <br>
       <table>
