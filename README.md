@@ -17,7 +17,7 @@
 
 ## Wiring
 <table>
-<tr><th> Nano - Array </th><th>Nano - TB6612FNG</th></tr>
+<tr><th>Nano - Array </th><th>Nano - TB6612FNG</th><th>TB6612FNG - Motors - Nano - LED</th>th</tr><th>
 <tr><td>
 
 | Arduino Nano Pin | IR Array |
@@ -44,4 +44,15 @@
 | **D9** | BIN1 |
 | **D10** | BIN2 |
 
-</td></tr> </table>
+</td></tr> 
+
+</td><td>
+
+| TB6612FNG | N20 Motors | Arduino Nano | LED |
+| :--- | :--- | :--- | :---|
+| **A01 + A02** | Left Motor | D11 | Red LED |
+| **B01 + B02** | Right Motor | D12 | Yellow LED |
+| | | D13 | Blue LED |
+
+</td></tr>
+</table>
