@@ -25,7 +25,7 @@
   <tr>
     <td valign="top">
       <table>
-        <tr><th>Arduino Nano Pin</th><th>IR Array</th></tr>
+        <tr><th>Nano</th><th>IR Array</th></tr>
         <tr><td><b>5V</b></td><td>VCC</td></tr>
         <tr><td><b>A0</b></td><td>1</td></tr>
         <tr><td><b>A1</b></td><td>2</td></tr>
@@ -39,7 +39,7 @@
     </td>
     <td valign="top">
       <table>
-        <tr><th>Arduino Nano Pin</th><th>TB6612FNG</th></tr>
+        <tr><th>Nano</th><th>TB6612FNG</th></tr>
         <tr><td><b>5V</b></td><td>VCC + STBY</td></tr>
         <tr><td><b>D5</b></td><td>PWMA</td></tr>
         <tr><td><b>D6</b></td><td>PWMB</td></tr>
@@ -51,10 +51,10 @@
     </td>
     <td valign="top">
       <table>
-        <tr><th>TB6612FNG</th><th>N20 Motors</th><th>Arduino Nano</th><th>LED</th></tr>
-        <tr><td><b>A01 + A02</b></td><td>Left Motor</td><td>D11</td><td>Red LED</td></tr>
-        <tr><td><b>B01 + B02</b></td><td>Right Motor</td><td>D12</td><td>Yellow LED</td></tr>
-        <tr><td></td><td></td><td>D13</td><td>Blue LED</td></tr>
+        <tr><th>TB6612FNG</th><th>N20 Motors</th><th>Nano</th><th>LED</th></tr>
+        <tr><td><b>A01 + A02</b></td><td>Left Motor</td><td>D11</td><td>Red</td></tr>
+        <tr><td><b>B01 + B02</b></td><td>Right Motor</td><td>D12</td><td>Yellow</td></tr>
+        <tr><td></td><td></td><td>D13</td><td>Blue</td></tr>
       </table>
     </td>
   </tr>
