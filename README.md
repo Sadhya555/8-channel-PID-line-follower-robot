@@ -17,42 +17,45 @@
 
 ## Wiring
 <table>
-<tr><th>Nano - Array </th><th>Nano - TB6612FNG</th><th>TB6612FNG - Motors - Nano - LED</th>th</tr><th>
-<tr><td>
-
-| Arduino Nano Pin | IR Array |
-| :--- | :--- | 
-| **5V** | VCC |
-| **A0** | 1 |
-| **A1** | 2 |
-| **A2** | 3 |
-| **A3** | 4 |
-| **A4** | 5 |
-| **A5** | 6 |
-| **A6** | 7 |
-| **A7** | 8 |
-
-</td><td>
-
-| Arduino Nano Pin | TB6612FNG |
-| :--- | :--- | 
-| **5V** | VCC + STBY |
-| **D5** | PWMA |
-| **D6** | PWMB |
-| **D7** | AIN1 |
-| **D8** | AIN2 |
-| **D9** | BIN1 |
-| **D10** | BIN2 |
-
-</td></tr> 
-
-</td><td>
-
-| TB6612FNG | N20 Motors | Arduino Nano | LED |
-| :--- | :--- | :--- | :---|
-| **A01 + A02** | Left Motor | D11 | Red LED |
-| **B01 + B02** | Right Motor | D12 | Yellow LED |
-| | | D13 | Blue LED |
-
-</td></tr>
+  <tr>
+    <th>Nano - Array</th>
+    <th>Nano - TB6612FNG</th>
+    <th>TB6612FNG - Motors - Nano - LED</th>
+  </tr>
+  <tr>
+    <td valign="top">
+      <table>
+        <tr><th>Arduino Nano Pin</th><th>IR Array</th></tr>
+        <tr><td><b>5V</b></td><td>VCC</td></tr>
+        <tr><td><b>A0</b></td><td>1</td></tr>
+        <tr><td><b>A1</b></td><td>2</td></tr>
+        <tr><td><b>A2</b></td><td>3</td></tr>
+        <tr><td><b>A3</b></td><td>4</td></tr>
+        <tr><td><b>A4</b></td><td>5</td></tr>
+        <tr><td><b>A5</b></td><td>6</td></tr>
+        <tr><td><b>A6</b></td><td>7</td></tr>
+        <tr><td><b>A7</b></td><td>8</td></tr>
+      </table>
+    </td>
+    <td valign="top">
+      <table>
+        <tr><th>Arduino Nano Pin</th><th>TB6612FNG</th></tr>
+        <tr><td><b>5V</b></td><td>VCC + STBY</td></tr>
+        <tr><td><b>D5</b></td><td>PWMA</td></tr>
+        <tr><td><b>D6</b></td><td>PWMB</td></tr>
+        <tr><td><b>D7</b></td><td>AIN1</td></tr>
+        <tr><td><b>D8</b></td><td>AIN2</td></tr>
+        <tr><td><b>D9</b></td><td>BIN1</td></tr>
+        <tr><td><b>D10</b></td><td>BIN2</td></tr>
+      </table>
+    </td>
+    <td valign="top">
+      <table>
+        <tr><th>TB6612FNG</th><th>N20 Motors</th><th>Arduino Nano</th><th>LED</th></tr>
+        <tr><td><b>A01 + A02</b></td><td>Left Motor</td><td>D11</td><td>Red LED</td></tr>
+        <tr><td><b>B01 + B02</b></td><td>Right Motor</td><td>D12</td><td>Yellow LED</td></tr>
+        <tr><td></td><td></td><td>D13</td><td>Blue LED</td></tr>
+      </table>
+    </td>
+  </tr>
 </table>
