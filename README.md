@@ -16,10 +16,13 @@
 * Jumper Wires
 
 ## Wiring
+<table>
+<tr><th> Nano - Array </th><th>Nano - TB6612FNG</th></tr>
+<tr><td>
+
 | Arduino Nano Pin | IR Array |
 | :--- | :--- | 
 | **5V** | VCC |
-| **GND** | GND |
 | **A0** | 1 |
 | **A1** | 2 |
 | **A2** | 3 |
@@ -28,3 +31,17 @@
 | **A5** | 6 |
 | **A6** | 7 |
 | **A7** | 8 |
+
+</td><td>
+
+| Arduino Nano Pin | TB6612FNG |
+| :--- | :--- | 
+| **5V** | VCC + STBY |
+| **D5** | PWMA |
+| **D6** | PWMB |
+| **D7** | AIN1 |
+| **D8** | AIN2 |
+| **D9** | BIN1 |
+| **D10** | BIN2 |
+
+</td></tr> </table>
