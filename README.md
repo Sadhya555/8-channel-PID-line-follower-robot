@@ -20,7 +20,7 @@
   <tr>
     <th>Nano - Array</th>
     <th>Nano - TB6612FNG</th>
-    <th>TB6612FNG & Motors <br><br> Nano & LED</th>
+    <th>Other</th>
   </tr>
   <tr>
     <td valign="top">
